@@ -1,3 +1,5 @@
+import argparse
+
 def get_cl_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--logging_file", help="Log file path for Pynacea",

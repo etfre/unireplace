@@ -5,6 +5,7 @@ import argparse
 from unireplace import utilities
 
 def main():
+    cl_args = utilities.get_cl_args()
     print('trace')
 
 if __name__ == '__main__':
